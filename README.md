@@ -101,11 +101,11 @@ Rangez-les dans votre gestionnaire de mots de passe, dans votre espace infonuagi
 
 **Un contrôle au 28e jour.** GitHub vérifie votre deuxième facteur vingt-huit jours après l'activation. 
 
-**Ne désactivez pas le 2FA pendant la durée de la session.** Un collaborateur externe qui le désactive est retiré du répertoire automatiquement. Votre soumission reste en place, mais vous ne pouvez plus y travailler. Si vous devez changer de méthode — nouveau téléphone, application différente —, passez par **Settings** → **Password and authentication** et reconfigurez sans désactiver : de la sorte, vous garderez votre accès.
+**Ne désactivez pas le 2FA pendant la durée où vous avez besoin d'accéder au répertoire.** GitHub vous retirera du répertoire automatiquement. Votre soumission restera en place, mais vous ne pouvez plus y travailler. Si vous devez changer de méthode — nouveau téléphone, application différente —, passez par **Settings** → **Password and authentication** et reconfigurez sans désactiver : de la sorte, vous garderez votre accès.
 
-### En cas de blocage
+### En cas de problème
 
-Ouvrez un billet *issue* dans l'onglet **Issues**, ou prévenez l'enseignante avant la séance. 
+Ouvrez un billet *issue* dans l'onglet **Issues** et prévenez votre enseignant.
 
 Documentation de GitHub : [Configuring two-factor authentication](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication)
 
