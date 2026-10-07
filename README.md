@@ -1,4 +1,4 @@
-# Nom du cours — Travaux d'équipe
+# PAP1222 — Stratégies de recherche
 
 ## Description
 
