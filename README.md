@@ -4,8 +4,8 @@
 
 Ce répertoire a été conçu pour répondre aux besoins des étudiants et de l'enseignant dans le cadre d'un cours portant sur les stratégies de recherche. 
 Ce répertoire, permet:
-- Aux étudiants et à l’enseignant de se doter d’un espace de travail pour faire progresser leurs travaux (édition et correction);
-- À l'enseignant de corriger les travaux et de rendre disponibles les recommandations;
+- Aux étudiants et à l’enseignant de se doter d’un espace de travail pour faire progresser l'avancement de leurs travaux et de les soumettre à l'enseignant pour correction;
+- À l'enseignant de corriger les travaux, de partager les corrections ou recommandations et de les approuver - dernière action lance la génération d'un document final en format PDF, prêt à être récupéré par les étudiants;
 - La contribution des futures équipes issus des prochaines cohortes étudiantes du cours.
 
 ---
@@ -71,6 +71,44 @@ Lorsque vos travaux seront rédigés, corrigés et approuvés, il pourront aussi
 être déposés dans **Papyrus**, le dépôt institutionnel de l'Université de
 Montréal, où ils recevront une adresse permanente et d'où ils pourront être cités.
 
+## Première étape : activer l'authentification à deux facteurs (2FA)
+
+> [!IMPORTANT]
+> Sans cette étape, **vous ne pourrez pas accepter l'invitation** au *repository*. 
+
+Le répertoire appartient à l'organisation des Bibliothèques, qui exige l'authentification à deux facteurs (2FA). Vous y êtes invités comme *outside collaborator*, et GitHub traite ce statut de la sorte : un collaborateur externe sans 2FA n'est pas seulement bloqué, il est **retiré du répertoire**.
+
+### Application d'authentification (2FA)
+
+Si vous n'en avez pas déjà une, installez une application d'authentification — ce que GitHub appelle une application *TOTP*. Aucune n'est imposée : cherchez « TOTP » dans la boutique d'applications de votre téléphone. Choisissez-en une qui **sauvegarde vos codes dans l'infonuagique**, pour les retrouver si vous changez d'appareil.
+
+### Marche à suivre
+
+1. Si vous n'en avez pas, installez une application d'authentification sur votre téléphone.
+2. Sur GitHub : votre photo de profil, en haut à droite → **Settings** → **Password and authentication**.
+3. Cliquez **Enable two-factor authentication**.
+4. Scannez le code QR avec l'application. Elle affiche un code à six chiffres qui change toutes les trente secondes : entrez-le dans le champ.
+5. **Téléchargez vos codes de récupération** et rangez-les ailleurs que sur votre téléphone.
+6. Cliquez **I have saved my recovery codes**.
+
+### Codes de récupération
+
+Ces codes sont la seule façon de rentrer dans votre compte si vous perdez votre téléphone. Sans eux, il faut passer par une procédure de récupération auprès de GitHub, qui peut demander un délai important. Pendant ce temps vous ne pourrez plus accéder à votre travail.
+
+Rangez-les dans votre gestionnaire de mots de passe, dans votre espace infonuagique de l'Université, ou imprimez-les.
+
+### À savoir
+
+**Un contrôle au 28e jour.** GitHub vérifie votre deuxième facteur vingt-huit jours après l'activation. 
+
+**Ne désactivez pas le 2FA pendant la durée de la session.** Un collaborateur externe qui le désactive est retiré du répertoire automatiquement. Votre soumission reste en place, mais vous ne pouvez plus y travailler. Si vous devez changer de méthode — nouveau téléphone, application différente —, passez par **Settings** → **Password and authentication** et reconfigurez sans désactiver : de la sorte, vous garderez votre accès.
+
+### En cas de blocage
+
+Ouvrez un billet *issue* dans l'onglet **Issues**, ou prévenez l'enseignante avant la séance. 
+
+Documentation de GitHub : [Configuring two-factor authentication](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication)
+
 ---
 
 ## Mode d'emploi
@@ -109,7 +147,7 @@ Les consignes ne sont que visible dans l'éditeur. Elles n'apparaitront pas dans
 
 ---
 
-### 3. Soumettre pour correction
+### 3 Soumettre pour correction
 
 - Cliquez sur **Commit changes…** en haut à droite. 
 
@@ -179,7 +217,7 @@ Vos modifications s'ajoutent au même *pull request* que lorsque vous aviez fait
 
 ---
 
-### 6. Correction: Approbation, Demande de Changement & Commentaires
+### 4. Correction: Approbation, Demande de Changement & Commentaires
 
 L'enseignant corrige le travail que vous avez soumis à l'aide du *Pull requests* dans l'onglet **Files changed** et sera en mesure d'y ajouter des commentaire. C'est ce que GitHub appelle une review. Cela aboutit à trois scénarios pour les étudiants:
 
@@ -196,7 +234,7 @@ pas repris votre texte. Deux façons de le faire, selon la forme du commentaire.
   précédente. L'éditeur n'affiche pas les commentaires : gardez votre soumission
   ouverte dans un onglet pour lire les annotations, et l'éditeur dans un second.
 
-3. **Des commentaires simples - sans demande de corrections** Ils commente sans approuver ni bloquer : à vous
+3. **Des commentaires simples - sans demande de corrections** Ni approbation, ni correction: à vous
 de voir ce que vous en faites. Votre soumission restera en attente jusqu'à ce que l'enseignant l'approuve.
 
 Les commentaires de l'enseignant s'affichent dans l'onglet **Files changed** de
