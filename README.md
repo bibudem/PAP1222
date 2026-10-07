@@ -125,9 +125,9 @@ Le rôle qu'on vous donne ouvre techniquement tout le dépôt : rien ne vous
 empêche d'ouvrir le fichier d'une autre équipe. Vérifiez le chemin affiché en
 haut de l'éditeur — il doit porter le numéro de votre équipe.
 
-Si l'erreur arrive, rien n'est perdu : Git conserve toutes les versions. Elle
-se verra dans votre soumission, où plus d'un fichier apparaîtrait, et
-l'enseignant vous demandera de la corriger avant d'accepter le travail.
+Si vous faites une erreur : Git conserve toutes les versions. Elle
+sera visible dans votre soumission et
+l'enseignant pourra vous permettre de faire la correction.
 
 ---
 
