@@ -4,9 +4,9 @@
 
 Ce répertoire a été conçu pour répondre aux besoins des étudiants et de l'enseignant dans le cadre d'un cours portant sur les stratégies de recherche. 
 Ce répertoire, permet:
-- Aux étudiants et à l’enseignant de se doter d’un espace de travail pour faire progresser l'avancement de leurs travaux et de les soumettre à l'enseignant pour correction;
-- À l'enseignant de corriger les travaux, de partager les corrections ou recommandations et de les approuver - dernière action lance la génération d'un document final en format PDF, prêt à être récupéré par les étudiants;
-- La contribution des futures équipes issus des prochaines cohortes étudiantes du cours.
+- Pour les étudiants et l’enseignant: de se doter d’un espace de travail pour faire progresser l'avancement de leurs travaux et de les soumettre à l'enseignant pour correction;
+- Pour l'enseignant: corriger les travaux, de partager les corrections ou recommandations et de les approuver - dernière action lance la génération d'un document final en format PDF, prêt à être récupéré par les étudiants;
+- Accéder à la contribution des étudiants qui sera laissée durant les prochaines cohortes étudiantes du cours.
 
 ---
 
@@ -64,54 +64,15 @@ Vos noms figureront sur la page titre du document final, sous licence
 
 La licence **CC BY** permet à quiconque de reprendre et d'adapter
 votre travail, y compris à des fins commerciales, **à condition de vous
-créditer**. C'est aussi pour ça que vos noms y sont : sans eux, personne ne
-saurait qui créditer.
+créditer**. 
 
 Lorsque vos travaux seront rédigés, corrigés et approuvés, il pourront aussi
 être déposés dans **Papyrus**, le dépôt institutionnel de l'Université de
 Montréal, où ils recevront une adresse permanente et d'où ils pourront être cités.
 
-## Première étape : activer l'authentification à deux facteurs (2FA)
-
-> [!IMPORTANT]
-> Sans cette étape, **vous ne pourrez pas accepter l'invitation** au *repository*. 
-
-Le répertoire appartient à l'organisation des Bibliothèques, qui exige l'authentification à deux facteurs (2FA). Vous y êtes invités comme *outside collaborator*, et GitHub traite ce statut de la sorte : un collaborateur externe sans 2FA n'est pas seulement bloqué, il est **retiré du répertoire**.
-
-### Application d'authentification (2FA)
-
-Si vous n'en avez pas déjà une, installez une application d'authentification — ce que GitHub appelle une application *TOTP*. Aucune n'est imposée : cherchez « TOTP » dans la boutique d'applications de votre téléphone. Choisissez-en une qui **sauvegarde vos codes dans l'infonuagique**, pour les retrouver si vous changez d'appareil.
-
-### Marche à suivre
-
-1. Si vous n'en avez pas, installez une application d'authentification sur votre téléphone.
-2. Sur GitHub : votre photo de profil, en haut à droite → **Settings** → **Password and authentication**.
-3. Cliquez **Enable two-factor authentication**.
-4. Scannez le code QR avec l'application. Elle affiche un code à six chiffres qui change toutes les trente secondes : entrez-le dans le champ.
-5. **Téléchargez vos codes de récupération** et rangez-les ailleurs que sur votre téléphone.
-6. Cliquez **I have saved my recovery codes**.
-
-### Codes de récupération
-
-Ces codes sont la seule façon de rentrer dans votre compte si vous perdez votre téléphone. Sans eux, il faut passer par une procédure de récupération auprès de GitHub, qui peut demander un délai important. Pendant ce temps vous ne pourrez plus accéder à votre travail.
-
-Rangez-les dans votre gestionnaire de mots de passe, dans votre espace infonuagique de l'Université, ou imprimez-les.
-
-### À savoir
-
-**Un contrôle au 28e jour.** GitHub vérifie votre deuxième facteur vingt-huit jours après l'activation. 
-
-**Ne désactivez pas le 2FA pendant la durée où vous avez besoin d'accéder au répertoire.** GitHub vous retirera du répertoire automatiquement. Votre soumission restera en place, mais vous ne pouvez plus y travailler. Si vous devez changer de méthode — nouveau téléphone, application différente —, passez par **Settings** → **Password and authentication** et reconfigurez sans désactiver : de la sorte, vous garderez votre accès.
-
-### En cas de problème
-
-Ouvrez un billet *issue* dans l'onglet **Issues** et prévenez votre enseignant.
-
-Documentation de GitHub : [Configuring two-factor authentication](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication)
-
 ---
 
-## Mode d'emploi
+## Guide d'utilisation
 
 ### 1. Accèder à votre fichier de travail
 
