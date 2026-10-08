@@ -4,9 +4,9 @@
 
 Ce répertoire a été conçu pour répondre aux besoins des étudiants et de l'enseignant dans le cadre d'un cours portant sur les stratégies de recherche. 
 Ce répertoire, permet:
-- Pour les étudiants et l’enseignant: de se doter d’un espace de travail pour faire progresser l'avancement de leurs travaux et de les soumettre à l'enseignant pour correction;
-- Pour l'enseignant: corriger les travaux, de partager les corrections ou recommandations et de les approuver - dernière action lance la génération d'un document final en format PDF, prêt à être récupéré par les étudiants;
-- Accéder à la contribution des étudiants qui sera laissée durant les prochaines cohortes étudiantes du cours.
+- Pour les étudiants et l’enseignant: fournir une espace de travail pour faire progresser l'avancement des travaux étudiant et de les soumettre à l'enseignant pour correction;
+- Pour l'enseignant: corriger les travaux, partager les corrections ou recommandations et les approuver - cette dernière action lance la génération d'un document final en format PDF, prêt à être récupéré par les étudiants;
+- Pour tous: Accéder aux travaux des étudiants qui seront produit durant les prochaines cohortes étudiantes du cours.
 
 ---
 
