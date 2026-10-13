@@ -24,7 +24,6 @@ repère pour la lecture. L'équipe n'a pas à y répondre une à une.
 - [ ] Très clair
 
 > La question permet-elle d'identifier les concepts sans ambiguïté ?
-> Est-ce une question, ou seulement un sujet ?
 
 ## 2. Justification de la pertinence clinique
 
@@ -50,8 +49,6 @@ repère pour la lecture. L'équipe n'a pas à y répondre une à une.
 > concept manquant qui élargit trop ?
 > La portée déclarée de chaque concept correspond-elle à ce qui est cherché
 > ensuite dans l'historique ?
-> Les articles de consensus de la section 4 sont-ils repêchés ? Un consensus
-> manqué signale souvent un concept mal posé.
 
 ## 4. Recherche par vocabulaire contrôlé
 
@@ -76,8 +73,8 @@ repère pour la lecture. L'équipe n'a pas à y répondre une à une.
 - [ ] 3
 
 > Chaque descripteur existe-t-il dans la version du thésaurus indiquée ?
-> Les descripteurs sont-ils ceux de la base déclarée — MeSH, CINAHL Headings et
-> Emtree ne sont pas interchangeables ?
+> Les descripteurs sont-ils ceux de la base déclarée — MeSH, et
+> Emtree ?
 > Manque-t-il un descripteur évident pour l'un des concepts ?
 > Explode est-il justifié ? Appliqué systématiquement sans réflexion, ou absent
 > là où l'arborescence l'exigeait ? `NoExp` se justifie aussi.
@@ -131,7 +128,7 @@ repère pour la lecture. L'équipe n'a pas à y répondre une à une.
 > L'équation reproduite correspond-elle aux termes déclarés en section 3 ?
 > Les parenthèses ferment-elles ce qu'il faut ?
 > Les lignes de combinaison renvoient-elles aux bons numéros ?
-> Les opérateurs d'adjacence sont-ils utilisés à bon escient ?
+> Les opérateurs sont-ils utilisés à bon escient ?
 
 <!-- Commentaire, s'il y a lieu. -->
 
@@ -185,7 +182,7 @@ repère pour la lecture. L'équipe n'a pas à y répondre une à une.
 Hors grille : à vérifier avant de fusionner, parce que la fusion déclenche la
 production du document final.
 
-- [ ] Une personne extérieure pourrait réexécuter cette recherche telle quelle
+- [ ] Des mesures pont été prises pour qu'une personne extérieure puisse réexécuter cette recherche telle quelle
 - [ ] Le document se comprend sans le contexte du cours
 - [ ] Aucun renseignement personnel ne figure dans `strategie_recherche.md`
 - [ ] Les contrôles automatiques sont au vert
