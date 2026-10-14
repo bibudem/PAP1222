@@ -13,7 +13,7 @@ fichiers et la licence sont produits automatiquement.
 
 ---
 
-## Ce que les équipes ont lu avant de commencer
+## Ce que les étudiants doivent lire avant de commencer
 
 Le README ouvre sur une section qui les avertit de trois choses : leurs noms
 figureront sur la page titre sous licence CC BY, le dépôt est public et
