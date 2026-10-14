@@ -5,7 +5,7 @@
 # 1. « verification » — sur chaque pull request, sans exception. Refuse les
 #    renseignements personnels et signale les équipes absentes de equipes.yml.
 #    ⚠ Le nom « verification » est inscrit dans « Require status checks to
-#    pass » du ruleset. NE LE RENOMMEZ PAS sans changer le ruleset au même
+#    pass » du ruleset. NE PAS LE RENOMMER sans changer le ruleset au même
 #    moment : GitHub attendrait un contrôle qui ne rapporte jamais, et toute
 #    pull request resterait bloquée indéfiniment. Ce nom ne doit pas non plus
 #    être filtré par « paths ». Une pull request hors
@@ -89,7 +89,7 @@ jobs:
           done
           if [ -n "$suspects" ]; then
             printf '%s' "$suspects"
-            echo "::error::Suite de 8 chiffres détectée. Matricule : à retirer. Date : écrivez-la 2026-09-15. PMID : faites-le précéder de « PMID : »."
+            echo "::error::Suite de 8 chiffres détectée. Matricule : à retirer. Date : à écrire sous la forme 2026-09-15. PMID : à faire précéder de « PMID : »."
             erreurs=1
           fi
 
@@ -106,7 +106,7 @@ jobs:
           fi
 
           if [ "$erreurs" -ne 0 ]; then
-            echo "::error::Fusion bloquée. Retirez ce qui est signalé ci-dessus, puis enregistrez de nouveau sur la même branche : ce contrôle repartira tout seul."
+            echo "::error::Fusion bloquée. Retirer ce qui est signalé ci-dessus, puis enregistrer de nouveau sur la même branche : ce contrôle repartira tout seul."
             exit 1
           fi
 
