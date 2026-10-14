@@ -1,6 +1,6 @@
 # Corriger les travaux
 
-*Guide destiné à l'enseignant. Les consignes pour les équipes sont dans le
+*Guide destiné à l'enseignant. Les consignes pour les étudiants sont dans le
 [README](README.md).*
 
 Tout se fait dans le navigateur. Il n'y a rien à installer et rien à
@@ -20,17 +20,12 @@ figureront sur la page titre sous licence CC BY, le dépôt est public et
 l'inscription est **permanente** — un nom enregistré ne s'efface pas de
 l'historique Git, même si l'équipe renonce au dépôt dans Papyrus.
 
-Il leur indique aussi qu'une **voie de remise non publique** existe, et qu'il
-faut en aviser l'enseignant *avant* de commencer. Quelques demandes sont donc
-à prévoir en début de session. Deux choses à savoir pour y répondre :
+Il leur indique aussi qu'une **voie de remise non publique** existe, et que s'ils préfèrent cette option, il
+faut en aviser l'enseignant *avant* de faire quoi que ce soit dans ce dépôt. Quelques demandes sont donc
+à prévoir en début de session. À prévoir:
 
-- Le refus n'a aucune incidence sur la note, et l'étudiant n'a pas à se
-  justifier. C'est écrit tel quel dans le README.
-- Si le refus est individuel dans une équipe qui accepte, l'administrateur du
-  *repository* peut laisser cette seule équipe non nominative.
-
-Toute demande est à transmettre à l'administrateur : c'est lui qui inscrit les
-noms, une seule fois, avant la première remise.
+Toute demande d'inscription d'étudiant au dépôt est à transmettre à l'administrateur : c'est lui qui inscrit les
+noms, au début de la session, avant que les étudiants aient à travailler dans le dépôt.
 
 ---
 
@@ -43,11 +38,9 @@ Trois filtres à coller dans la barre de recherche, et à mettre en signet :
 
 | Filtre | Ce qu'il montre |
 |---|---|
-| `is:pr is:open review:required` | les travaux pas encore regardées |
+| `is:pr is:open review:required` | les travaux pas encore révisés : pour l'enseignant, constitue la chaine de correction |
 | `is:pr is:open review:changes-requested` | les équipes qui doivent corriger |
 | `is:pr is:open review:approved` | les travaux approuvées, prêtes pour le *merge* |
-
-Le premier filtre constitue la file de correction.
 
 ---
 
@@ -62,7 +55,7 @@ review`, les commentaires sont regroupés et publiés seulement à la fin. Avec
 vingt équipes, la différence est importante, autant pour la boîte de réception
 de l'enseignant que pour celle des équipes.
 
-### Proposer la correction au lieu de la décrire
+### Proposer des corrections
 
 Dans la boîte de commentaire, une icône insère un **bloc de suggestion** déjà
 rempli avec le contenu de la ligne. L'enseignant le corrige, et l'équipe
@@ -86,7 +79,7 @@ des études pertinentes ». Une suggestion n'y aurait aucun sens.
 
 ---
 
-## Ce que le contrôle automatique ne voit pas
+## Limites du contrôle automatique
 
 Le *check* attrape les renseignements personnels — matricules, courriels,
 téléphones. Il ne juge pas le contenu : cela revient à l'enseignant. Et une
@@ -108,7 +101,7 @@ C'est la seule vérification de fond que l'automatisation ne peut pas faire.
 
 ---
 
-## Relire un travail corrigé
+## Repérer les modifications apportés par les étudiants
 
 Quand une équipe a corrigé, inutile de tout relire. Dans **Files changed**, le
 menu en haut à gauche affiche **All commits** par défaut : l'ouvrir et choisir
@@ -122,7 +115,7 @@ suppressions pour quinze lignes de travail.
 
 ---
 
-## Conclure
+## Conclure la correction
 
 Cliquer sur **Submit review**, en haut à droite. Trois choix :
 
@@ -138,7 +131,7 @@ Le *merge* se fait dès l'approbation.
 
 ---
 
-## Récupérer les documents
+## Accéder aux travaux en version final (format PDF)
 
 Sur la page d'accueil du *repository*, dans la colonne de droite, cliquer sur
 **Releases** → **Documents finaux**. On y trouve un PDF par équipe, déjà titré
@@ -155,23 +148,23 @@ La liste se met à jour toute seule à chaque fusion d'un travail. Il n'y a rien
 
 ## Dépannage
 
-**Un ✗ rouge apparaît sous une *pull request*.** Le *check* automatique a
+- **Un ✗ rouge apparaît sous une *pull request*.** Le *check* automatique a
 trouvé un renseignement personnel : un matricule, un courriel ou un numéro de
 téléphone. L'équipe corrige son texte et le *check* repart tout seul. Rien à
 faire du côté de l'enseignant.
 
-**Un ⚠ jaune apparaît.** C'est un problème de configuration, pas un problème
+- **Un ⚠ jaune apparaît.** C'est un problème de configuration, pas un problème
 de l'équipe. Le *merge* n'est pas bloqué. Le signaler à l'administrateur et
 continuer.
 
-**GitHub affiche « You cannot approve your own pull request ».** C'est une
+- **GitHub affiche « You cannot approve your own pull request ».** C'est une
 règle de GitHub, pas un réglage. Faire le *merge* directement.
 
-**Une équipe ne retrouve plus son travail.** Elle est repartie du dossier
+- **Une équipe ne retrouve plus son travail.** Elle est repartie du dossier
 `equipes/` au lieu de sa *pull request*. Rien n'est perdu : son texte est sur
 sa *branch* et il est visible dans l'onglet **Pull requests**.
 
-**Une équipe a modifié le dossier d'une autre équipe.** Cela se voit dans
+- **Une équipe a modifié le dossier d'une autre équipe.** Cela se voit dans
 **Files changed** : plus d'un fichier apparaît. Demander la correction avec
 **Request changes**. L'historique garde la trace de ce qui s'est passé.
 
