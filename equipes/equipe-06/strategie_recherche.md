@@ -1,40 +1,41 @@
 <!-- ─────────────────────────────────────────────────────────────────
-     Vous n'avez aucune information administrative à saisir.
-     Vos noms, le sigle du cours, la date et la licence sont ajoutés
-     automatiquement à la page titre du PDF.
+     Aucune information administrative à saisir : les noms, le sigle
+     du cours, la date et la licence sont ajoutés automatiquement à la
+     page titre du PDF.
 
      Les blocs comme celui-ci sont des consignes. Ils n'apparaissent ni
-     sur GitHub ni dans le PDF.
+     dans l'affichage du fichier sur GitHub ni dans le PDF ; on les voit
+     seulement dans l'éditeur et dans l'onglet Files changed.
 
-     LAISSEZ-LES EN PLACE. Ils ne coûtent rien — personne ne les voit —
+     LES LAISSER EN PLACE. Ils ne coûtent rien — personne ne les voit —
      et les effacer alourdit énormément ce que l'enseignant doit relire :
      quarante lignes de consigne supprimées pour quinze lignes de travail.
-     Écrivez simplement en dessous.
+     Il suffit d'écrire en dessous.
 
      DEUX RÈGLES DE SAISIE, ET C'EST TOUT :
 
      1. Toute syntaxe d'interrogation va dans un bloc de code — les
         trois accents graves ```. Les blocs sont déjà en place, en
-        sections 3 et 5. À l'intérieur, rien n'est interprété : vos
+        sections 3 et 5. À l'intérieur, rien n'est interprété : les
         troncatures, astérisques, dièses, crochets et barres obliques
-        sortent exactement comme vous les avez écrits.
+        sortent exactement comme ils ont été écrits.
 
-        Ailleurs qu'entre ces accents, n'écrivez aucune syntaxe. Les
+        Ailleurs qu'entre ces accents, n'écrire aucune syntaxe. Les
         descripteurs et les équations ne se recopient pas dans le
         texte courant : ils vivent dans les blocs, et on y renvoie.
 
-        Collez l'historique DIRECTEMENT de la base de données vers le
+        Coller l'historique DIRECTEMENT de la base de données vers le
         bloc. Word, Excel et Google Docs remplacent les guillemets
         droits par des guillemets courbes, et "Renal Insufficiency,
         Chronic"[Mesh:NoExp] devient une requête invalide sans que rien
-        ne vous le signale.
+        ne le signale.
 
-     2. N'écrivez jamais huit chiffres de suite. Mettez des tirets dans
-        les dates. Séparez les grands décomptes par une espace :
-        écrivez 12 345 678, jamais collé ni avec des points. Un PMID
+     2. Ne jamais écrire huit chiffres de suite. Mettre des tirets dans
+        les dates. Séparer les grands décomptes par une espace :
+        12 345 678, jamais collé ni avec des points. Un PMID
         passe s'il porte son étiquette.
 
-     Rédigez, c'est tout.
+     Rédiger, c'est tout.
      ───────────────────────────────────────────────────────────────── -->
 
 
@@ -57,10 +58,10 @@
 ## 3. Plan de concepts
 
 **Base(s) de données interrogée(s) :**
-<!-- Nommez-les ici. Le détail de chaque interrogation va en section 5. -->
+<!-- Les nommer ici. Le détail de chaque interrogation va en section 5. -->
 
-<!-- Le plan de concepts est votre matrice de travail. Il tient dans un
-     seul bloc de code, un concept après l'autre, parce que vos
+<!-- Le plan de concepts est la matrice de travail. Il tient dans un
+     seul bloc de code, un concept après l'autre, parce que les
      descripteurs contiennent des crochets, des guillemets et des
      virgules que seul un bloc de code préserve intacts.
 
@@ -70,12 +71,12 @@
        Vocabulaire contrôlé   les descripteurs du thésaurus de la base
        Vocabulaire libre      les mots-clés en texte, avec leurs champs
 
-     Une valeur par ligne. Quand il y en a plusieurs, alignez-les sous
-     la première — ne les séparez pas par des virgules, elles se
+     Une valeur par ligne. Quand il y en a plusieurs, les aligner sous
+     la première — ne pas les séparer par des virgules, elles se
      confondraient avec celles des descripteurs.
 
-     Dupliquez autant de blocs CONCEPT que nécessaire. Trois sont
-     fournis ; supprimez ceux qui ne servent pas plutôt que d'en
+     Dupliquer autant de blocs CONCEPT que nécessaire. Trois sont
+     fournis ; supprimer ceux qui ne servent pas plutôt que d'en
      ajouter — supprimer casse moins que copier.
 
      Le modèle complet se trouve sous le bloc. -->
@@ -118,7 +119,7 @@ CONCEPT 2 ─ Atteinte rénale
 ### Justification du plan
 
 <!-- Un bloc par concept, numéroté comme ci-dessus. C'est ici qu'on
-     évalue votre raisonnement : le bloc de code dit QUOI, cette
+     évalue le raisonnement : le bloc de code dit QUOI, cette
      section dit POURQUOI.
 
      La précision et l'exhaustivité du vocabulaire contrôlé d'une part,
@@ -139,11 +140,11 @@ CONCEPT 2 ─ Atteinte rénale
        tous les termes plus spécifiques : c'est un choix d'exhaustivité,
        pas un réflexe. L'inverse non plus : NoExp se justifie. -->
 - **Vocabulaire libre — choix des mots-clés et des champs :**
-  <!-- Pourquoi ces synonymes en plus du vocabulaire contrôlé. Avez-vous
-       couvert les variantes orthographiques, les usages britannique et
-       américain, les noms commerciaux ? Pourquoi ces champs — titre,
-       résumé et mots-clés d'auteur plutôt que tous les champs ? Où
-       avez-vous placé vos troncatures, et pourquoi là ? -->
+  <!-- Pourquoi ces synonymes en plus du vocabulaire contrôlé. Les
+       variantes orthographiques, les usages britannique et américain,
+       les noms commerciaux sont-ils couverts ? Pourquoi ces champs —
+       titre, résumé et mots-clés d'auteur plutôt que tous les champs ?
+       Où les troncatures sont-elles placées, et pourquoi là ? -->
 
 #### Concept 2 —
 
@@ -155,16 +156,16 @@ CONCEPT 2 ─ Atteinte rénale
 
 ## 4. Articles de consensus
 
-<!-- Les articles dont vous savez d'avance qu'ils répondent à votre
-     question, et qui servent à valider la stratégie : si votre équation
-     ne les repêche pas, c'est qu'elle a un trou.
+<!-- Les articles dont on sait d'avance qu'ils répondent à la question,
+     et qui servent à valider la stratégie : si l'équation ne les
+     repêche pas, c'est qu'elle a un trou.
 
      Ce n'est pas la même chose que les références retenues de la
-     section 10, qui sont le résultat de votre tri.
+     section 10, qui sont le résultat du tri.
 
-     Pour chacun : la référence complète, puis dites si votre stratégie
+     Pour chacun : la référence complète, puis indiquer si la stratégie
      finale le retrouve. Un article de consensus manqué est une
-     information, pas un échec — expliquez pourquoi. -->
+     information, pas un échec — expliquer pourquoi. -->
 
 1. **Référence :**
    - **Repêché par la stratégie finale :** oui / non — si non, pourquoi :
@@ -175,22 +176,22 @@ CONCEPT 2 ─ Atteinte rénale
 
 ## 5. Stratégies exécutées
 
-<!-- Une section par base interrogée. C'est la partie qui rend votre
-     travail reproductible : quelqu'un doit pouvoir rejouer votre
+<!-- Une section par base interrogée. C'est la partie qui rend le
+     travail reproductible : quelqu'un doit pouvoir rejouer la
      recherche à partir de ces seules lignes.
 
-     Collez l'historique tel que la plateforme vous le donne, dans le
+     Coller l'historique tel que la plateforme le donne, dans le
      bloc de code.
 
-     NE RENUMÉROTEZ RIEN, NE RÉORDONNEZ RIEN. PubMed exporte son
-     historique du plus récent au plus ancien : votre dernière ligne
-     apparaît en premier. C'est normal. Vos lignes de combinaison
+     NE RIEN RENUMÉROTER, NE RIEN RÉORDONNER. PubMed exporte son
+     historique du plus récent au plus ancien : la dernière ligne
+     apparaît en premier. C'est normal. Les lignes de combinaison
      renvoient à des numéros — #1 OR #2 — et les toucher casse le
      renvoi.
 
-     Si votre export contient les colonnes « Sort By », « Filters »,
-     « Search Details » et « Time », gardez « Search Details » : c'est
-     la traduction exacte de votre requête par la plateforme, et c'est
+     Si l'export contient les colonnes « Sort By », « Filters »,
+     « Search Details » et « Time », garder « Search Details » : c'est
+     la traduction exacte de la requête par la plateforme, et c'est
      elle qui prouve la reproductibilité. « Time » ne sert à rien. -->
 
 ### Base 1 —
@@ -234,23 +235,23 @@ entre crochets selon la convention professionnelle :
 6    limit 5 to yr="2000 -Current"  [résultats retenus]               2 277
 -->
 
-**Traduction de la requête par la plateforme** <!-- « Search Details » chez PubMed. Facultatif si votre plateforme n'en fournit pas. -->
+**Traduction de la requête par la plateforme** <!-- « Search Details » chez PubMed. Facultatif si la plateforme n'en fournit pas. -->
 
 ```
 ```
 
 **Filtres appliqués :**
-<!-- Renvoyez au numéro de la ligne de l'historique, et justifiez.
+<!-- Renvoyer au numéro de la ligne de l'historique, et justifier.
      Par exemple : « ligne 8, années 2000 et suivantes — la molécule
      n'était pas commercialisée avant ». Ou : aucun filtre, et pourquoi.
      Un filtre de langue ou de date exclut des références : il se
      justifie, il ne se subit pas.
-     Ne recopiez pas la syntaxe ici — elle est dans l'historique. -->
+     Ne pas recopier la syntaxe ici — elle est dans l'historique. -->
 
 **Légende des opérateurs employés**
 
 ```
-Ne gardez que ce que vous avez réellement utilisé.
+Ne garder que les opérateurs réellement utilisés.
 ```
 
 <!-- Modèle PubMed :
@@ -293,8 +294,8 @@ adj3        mots à trois positions ou moins l'un de l'autre, tout ordre
 ### Dédoublonnage
 
 <!-- Combien de références au total, combien après retrait des doublons,
-     et par quel moyen. Si vous n'avez interrogé qu'une seule base,
-     écrivez-le. -->
+     et par quel moyen. Si une seule base a été interrogée, l'indiquer.
+     -->
 
 - **Total avant dédoublonnage :**
 - **Total après :**
@@ -317,48 +318,48 @@ adj3        mots à trois positions ou moins l'un de l'autre, tout ordre
 
 ## 7. Journal de recherche
 
-<!-- Consignez chaque tentative, y compris celles qui n'ont rien donné :
+<!-- Consigner chaque tentative, y compris celles qui n'ont rien donné :
      les impasses font partie du raisonnement et sont évaluées. Un bloc
      par tentative. -->
 
 ### 2026-MM-JJ —
 
-- **Ce que nous avons essayé :**
+- **Tentative :**
 - **Résultats obtenus :**
-- **Ce que nous en avons tiré :**
+- **Enseignements :**
 
 
 ## 8. Ajustements et améliorations proposées
 
 <!-- Deux choses, et la seconde est évaluée pour elle-même.
 
-     D'abord ce que vous avez modifié en cours de route, et pourquoi.
+     D'abord ce qui a été modifié en cours de route, et pourquoi.
 
-     Ensuite ce que vous amélioreriez en reprenant depuis le début :
-     quelle est la limite connue de votre stratégie, et qu'est-ce qui
+     Ensuite ce qui serait amélioré en reprenant depuis le début :
+     quelle est la limite connue de la stratégie, et qu'est-ce qui
      la lèverait. Une proposition d'amélioration pertinente vaut mieux
      qu'une stratégie présentée comme parfaite. -->
 
-**Ce que nous avons ajusté en cours de route :**
+**Ajustements en cours de route :**
 
-**Ce que nous améliorerions :**
+**Améliorations proposées :**
 
-**Limite connue de notre stratégie :**
+**Limite connue de la stratégie :**
 
 
 ## 9. Déclaration de l'usage de l'intelligence artificielle générative
 
 <!-- Cette section est obligatoire et elle est évaluée. Elle se remplit
-     même si vous n'avez rien utilisé — dans ce cas, écrivez-le.
+     même en l'absence d'usage — dans ce cas, l'indiquer.
 
      L'autorisation de l'enseignant est requise avant tout usage, et le
      plan de cours prime sur ce qui est écrit ici.
 
-     Nommez l'outil et sa version, dites à quelle étape il a servi et ce
-     que vous en avez fait, puis ce que vous avez vérifié vous-mêmes. Un
+     Nommer l'outil et sa version, indiquer à quelle étape il a servi et
+     ce qui en a été fait, puis ce que l'équipe a vérifié elle-même. Un
      outil qui propose des descripteurs ou des synonymes n'est pas un
-     outil qui les valide : la vérification dans le thésaurus vous
-     revient.
+     outil qui les valide : la vérification dans le thésaurus revient
+     à l'équipe.
 
      La boîte à outils des bibliothèques explique comment citer,
      signaler et déclarer :
@@ -366,13 +367,13 @@ adj3        mots à trois positions ou moins l'un de l'autre, tout ordre
 
 - **Outil(s) et version :** <!-- ou : aucun usage -->
 - **À quelle étape :**
-- **Ce que nous en avons fait :**
-- **Ce que nous avons vérifié nous-mêmes :**
+- **Usage qui en a été fait :**
+- **Vérifications faites par l'équipe :**
 
 
 ## 10. Références retenues
 
-<!-- Le résultat de votre tri, selon le style de citation demandé dans
+<!-- Le résultat du tri, selon le style de citation demandé dans
      le plan de cours. À distinguer des articles de consensus de la
      section 4, qui servaient à valider la stratégie.
 
@@ -389,5 +390,5 @@ adj3        mots à trois positions ou moins l'un de l'autre, tout ordre
 ## 11. Filiation
 
 <!-- Si ce travail dérive d'une stratégie déjà versée dans le
-     repository, collez son permalien ici et dites ce que vous en avez
-     repris. Sinon, écrivez : travail original. -->
+     repository, coller son permalien ici et préciser ce qui en a été
+     repris. Sinon, inscrire : travail original. -->
