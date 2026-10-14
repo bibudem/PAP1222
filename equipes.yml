@@ -28,8 +28,11 @@ licence_url: "https://creativecommons.org/licenses/by/4.0/deed.fr"
 #   membres  → les noms inscrits sous « equipes » ci-dessous. C'est le
 #              réglage retenu : ces documents sont publiés, cités et
 #              déposés dans Papyrus. Ce sont des travaux signés.
-#   equipe   → « Équipe 01 ». Réservé aux cas où une équipe refuse la
-#              publication sous son nom.
+#   equipe   → « Équipe 01 », « Équipe 02 »… pour TOUTES les équipes.
+#
+# Ce réglage vaut pour tout le fichier, jamais pour une seule équipe. Pour
+# qu'une seule équipe signe « Équipe NN », laissez sa liste « membres » vide
+# (voir plus bas).
 #
 # Une signature « Équipe 01 » n'est pas professionnelle, et sous licence
 # CC BY elle ne donne à personne à créditer. L'attribution est la condition
@@ -46,8 +49,8 @@ licence_url: "https://creativecommons.org/licenses/by/4.0/deed.fr"
 #      son travail sous son nom, avec licence CC BY. Ce n'est plus une
 #      formalité : c'est ce qui rend la suite légitime.
 #   2. Prévoir une voie de remise non publique pour qui refuse — et laisser
-#      son équipe en « auteurs: equipe » si le refus est individuel dans une
-#      équipe qui accepte.
+#      vide la liste « membres » de son équipe si le refus est individuel
+#      dans une équipe qui accepte : son PDF signera alors « Équipe NN ».
 #
 # ─────────────────────────────────────────────────────────────────────────
 auteurs: membres
