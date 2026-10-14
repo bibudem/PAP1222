@@ -3,12 +3,9 @@
 ## Description
 
 Ce dépôt a été conçu pour répondre aux besoins des étudiants et de l'enseignant dans le cadre d'un cours portant sur les stratégies de recherche.
-
-Il permet à:
-
-- étudiants et enseignant : de disposer d'un espace de travail pour faire avancer les travaux étudiants et les soumettre à l'enseignant pour correction ;
-- enseignant : de corriger les travaux, de communiquer ses corrections ou recommandations, puis de les approuver. La fusion d'un travail approuvé lance la production d'un document final en format PDF, prêt à être récupéré par les étudiants ;
-- tous : de consulter les travaux produits par les cohortes successives du cours.
+- **Étudiants** : accéder à un espace de travail partagé afin de rédiger les travaux et les soumettre à l'enseignant pour correction ;
+- **Enseignant** : corriger les travaux, de communiquer ses corrections ou recommandations, puis de les approuver. La fusion d'un travail approuvé lance la production d'un document final en format PDF, prêt à être récupéré par les étudiants ;
+- **Étudiants** et **Enseignant** : consulter les travaux produits par les cohortes successives du cours.
 
 ---
 
