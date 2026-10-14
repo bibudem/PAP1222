@@ -1,6 +1,6 @@
 # Corriger les remises
 
-*Guide destiné à l'enseignante. Les consignes pour les équipes sont dans le
+*Guide destiné à l'enseignant. Les consignes pour les équipes sont dans le
 [README](README.md).*
 
 Tout se fait dans le navigateur. Il n'y a rien à installer et rien à
@@ -73,14 +73,14 @@ retaper.
 Servez-vous-en dès que la correction est concrète : remettre un symbole de
 troncature, ajouter les champs `.ti,ab,kf.`, déplacer une équation dans le bloc
 de code, corriger un descripteur. C'est incomparablement plus efficace qu'un
-commentaire en prose, et ça élimine le risque qu'elles comprennent de travers.
+commentaire en prose, et ça élimine le risque que l'équipe comprenne de travers.
 
 Gardez le commentaire ordinaire pour ce qui demande une réflexion — « votre
 découpage en concepts mélange deux idées », « ce filtre exclut probablement des
-études pertinentes ». Une suggestion n'aurait aucun sens là.
+études pertinentes ». Une suggestion n'y aurait aucun sens.
 
 > **À savoir sur `Request changes`.** Une fois que vous avez demandé des
-> corrections, **vous êtes la seule** à pouvoir lever le blocage, en soumettant
+> corrections, **vous êtes le seul** à pouvoir lever le blocage, en soumettant
 > une nouvelle révision approbatrice. L'approbation de quelqu'un d'autre ne
 > suffirait pas.
 
@@ -135,7 +135,7 @@ Cliquez sur **Submit review**, en haut à droite. Vous avez trois choix :
 Après avoir approuvé, cliquez sur **Merge pull request**. Le document final se
 fabrique tout seul, page titre comprise, et la *branch* de l'équipe disparaît.
 
-Faites le *merge* tout de suite après votre approbation, sans attendre.
+Faites le *merge* dès que vous avez approuvé.
 
 ---
 
@@ -187,7 +187,7 @@ changes**. L'historique garde la trace de ce qui s'est passé.
 | `main` | la *branch* officielle, celle qui fait foi. Personne n'écrit dedans directement |
 | *pull request* (demande de fusion) | la demande d'intégrer la *branch* d'une équipe dans `main`. C'est sa remise : le travail, la discussion et votre correction sont tous là |
 | *review* (révision) | votre lecture commentée, ligne par ligne |
-| *merge* (fusion) | l'intégration du travail accepté dans `main`. Vous seule pouvez le faire |
+| *merge* (fusion) | l'intégration du travail accepté dans `main`. Vous seul pouvez le faire |
 | *check* (contrôle) | une vérification automatique lancée à chaque *commit*. Celui-ci cherche les renseignements personnels |
 | *Actions* | le service de GitHub qui exécute les *checks* et fabrique les PDF. Vous n'avez pas à y aller |
 | *release* (version publiée) | l'endroit où les PDF sont publiés, dans la colonne de droite de la page d'accueil. N'expire pas |
