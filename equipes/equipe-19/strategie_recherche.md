@@ -313,7 +313,7 @@ adj3        mots à trois positions ou moins l'un de l'autre, tout ordre
 
 **Exclusion**
 
-- Critère — justification :
+- Critère — justification : pied, main
 
 
 ## 7. Journal de recherche
