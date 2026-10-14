@@ -159,7 +159,7 @@ GitHub ce qui aide l'équipe à reprendre son travail.
 
 ## À décider
 
-- Les articles de consensus sont-ils imposés par l'enseignante, ou trouvés par
+- Les articles de consensus sont-ils imposés par l'enseignant, ou trouvés par
   les équipes ? Le gabarit suppose actuellement qu'ils sont connus d'avance.
 - Combien de blocs CONCEPT pré-remplir dans le gabarit ? Trois actuellement :
   supprimer les blocs inutilisés est plus sûr que d'en dupliquer.
