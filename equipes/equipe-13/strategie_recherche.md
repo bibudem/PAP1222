@@ -7,7 +7,7 @@
      sur GitHub ni dans le PDF.
 
      LAISSEZ-LES EN PLACE. Ils ne coûtent rien — personne ne les voit —
-     et les effacer alourdit énormément ce que l'enseignante doit relire :
+     et les effacer alourdit énormément ce que l'enseignant doit relire :
      quarante lignes de consigne supprimées pour quinze lignes de travail.
      Écrivez simplement en dessous.
 
@@ -351,7 +351,7 @@ adj3        mots à trois positions ou moins l'un de l'autre, tout ordre
 <!-- Cette section est obligatoire et elle est évaluée. Elle se remplit
      même si vous n'avez rien utilisé — dans ce cas, écrivez-le.
 
-     L'autorisation de l'enseignante est requise avant tout usage, et le
+     L'autorisation de l'enseignant est requise avant tout usage, et le
      plan de cours prime sur ce qui est écrit ici.
 
      Nommez l'outil et sa version, dites à quelle étape il a servi et ce
