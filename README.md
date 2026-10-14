@@ -2,18 +2,18 @@
 
 ## Description
 
-Ce dépôt a été conçu pour répondre aux besoins des étudiants et de l'enseignant dans le cadre d'un cours portant sur les stratégies de recherche.
-- **Étudiants** : accéder à un espace de travail partagé afin de rédiger les travaux et les soumettre à l'enseignant pour correction ;
-- **Enseignant** : corriger les travaux, de communiquer ses corrections ou recommandations, puis de les approuver. La fusion d'un travail approuvé lance la production d'un document final en format PDF, prêt à être récupéré par les étudiants ;
-- **Étudiants** et **Enseignant** : consulter les travaux produits par les cohortes successives du cours.
+Ce dépôt a été conçu pour répondre aux besoins des étudiants et de l'enseignant dans le cadre d'un cours portant sur les stratégies de recherche:
+1. **Étudiants** : accéder à un espace de travail partagé afin de rédiger les travaux et les soumettre à l'enseignant pour correction ;
+2. **Enseignant** : corriger les travaux, de communiquer ses corrections ou recommandations, puis de les approuver. La fusion d'un travail approuvé lance la production d'un document final en format PDF, prêt à être récupéré par les étudiants ;
+3. **Étudiants** et **Enseignant** : consulter les travaux produits par les cohortes successives du cours.
 
 ---
 
-## Fonctionnement
+## Modalités et fonctionnement
 
 Tout se fait à partir du navigateur Web. Il n'y a rien à installer et aucune ligne de commande à entrer.
 
-**Vous n'avez aucune information administrative à saisir.** Vos noms, le sigle du cours, la date et la licence sont ajoutés automatiquement. Vous n'avez qu'à rédiger votre stratégie de recherche.
+**Vous n'avez aucune information administrative à saisir.** Vos noms, le sigle du cours, la date et la licence sont ajoutés automatiquement. Vous n'avez qu'à rédiger votre travail
 
 > Les mots en **gras** sont des boutons à cliquer. Les mots en *italique* sont des termes de GitHub.
 > L'interface de GitHub n'est pas traduite en français : par souci de clarté et de cohérence, ce document
@@ -42,7 +42,7 @@ L'utilisation de cette plateforme se fait sur une base volontaire : vous avez le
 
 **Avant de faire quoi que ce soit ici, avisez votre enseignant.** Une voie de soumission non publique vous sera toujours offerte, et vous serez évalués sur le même travail. Vous n'avez pas à vous justifier, et ce choix n'a aucune incidence sur votre note.
 
-### Facultatif : masquer votre adresse courriel
+### Optionnel : masquer votre adresse courriel
 
 Cliquez sur votre photo de profil, en haut à droite → **Settings** → **Emails**, puis cochez **Keep my email addresses private**.
 
