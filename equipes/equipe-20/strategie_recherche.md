@@ -41,7 +41,7 @@
 
 ## 1. Question de recherche
 
-**Question :**
+**Question :** La simulation haute fidélité améliore-t-elle la performance technique des résidents en chirurgie cardiothoracique ?
 <!-- Une ou deux phrases. Une question, pas un sujet : « sémaglutide et
      insuffisance rénale » est un sujet ; « la sémaglutide diminue-t-elle
      le risque d'insuffisance rénale chronique chez les patients
@@ -127,31 +127,20 @@ CONCEPT 2 ─ Atteinte rénale
      les deux rubriques distinctes. -->
 
 #### Concept 1 —
+CONCEPT 1 ─ Chirurgie cardiothoracique
 
-- **Portée retenue :**
-  <!-- Ce que le concept inclut, et surtout ce qu'il exclut. Une
-       frontière mal posée se paie plus tard, en bruit ou en silence. -->
-- **Vocabulaire contrôlé — choix des descripteurs :**
-  <!-- Pourquoi ces descripteurs plutôt que d'autres. Sont-ils ceux de
-       la base déclarée ? MeSH, CINAHL Headings et Emtree ne sont pas
-       interchangeables. En manque-t-il un, évident, pour ce concept ? -->
-- **Explode :** oui / non — pourquoi :
-  <!-- Pour chaque descripteur où la question se pose. Exploser ramène
-       tous les termes plus spécifiques : c'est un choix d'exhaustivité,
-       pas un réflexe. L'inverse non plus : NoExp se justifie. -->
-- **Vocabulaire libre — choix des mots-clés et des champs :**
-  <!-- Pourquoi ces synonymes en plus du vocabulaire contrôlé. Les
-       variantes orthographiques, les usages britannique et américain,
-       les noms commerciaux sont-ils couverts ? Pourquoi ces champs —
-       titre, résumé et mots-clés d'auteur plutôt que tous les champs ?
-       Où les troncatures sont-elles placées, et pourquoi là ? -->
+Langage simple:       chirurgie cardiothoracique
+
+Vocabulaire contrôlé:  exp Cardiac Surgical Procedures/
+
+Vocabulaire libre:     (cardiac or cardiothorac*).ti,ab,kf.
+
 
 #### Concept 2 —
-
-- **Portée retenue :**
-- **Vocabulaire contrôlé — choix des descripteurs :**
-- **Explode :** oui / non — pourquoi :
-- **Vocabulaire libre — choix des mots-clés et des champs :**
+CONCEPT 2 ─ Simulation
+  Langage simple        simulation
+  Vocabulaire contrôlé  Simulation Training/
+  Vocabulaire libre     simulat*.ti,ab,kf.
 
 
 ## 4. Articles de consensus
@@ -168,7 +157,7 @@ CONCEPT 2 ─ Atteinte rénale
      information, pas un échec — expliquer pourquoi. -->
 
 1. **Référence :**
-   - **Repêché par la stratégie finale :** oui / non — si non, pourquoi :
+   - **Repêché par la stratégie finale :** oui / non — si non, pourquoi : Oui, parce que c'est comme ça
 
 2. **Référence :**
    - **Repêché par la stratégie finale :** oui / non — si non, pourquoi :
