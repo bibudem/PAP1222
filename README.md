@@ -1,14 +1,14 @@
-# PAP1222 — Savoirs scientifiques en pharmacie: Stratégies de recherche
+# PAP1222 - Savoirs scientifiques en pharmacie : Stratégies de recherche
 
 ## Description
 
 Ce dépôt a été conçu pour répondre aux besoins des étudiants et de l'enseignant dans le cadre d'un cours portant sur les stratégies de recherche.
 
-Il permet :
+Il permet à:
 
-- aux étudiants et à l'enseignant : de disposer d'un espace de travail pour faire avancer les travaux étudiants et les soumettre à l'enseignant pour correction ;
-- à l'enseignant : de corriger les travaux, de communiquer ses corrections ou recommandations, puis de les approuver. La fusion d'un travail approuvé lance la production d'un document final en format PDF, prêt à être récupéré par les étudiants ;
-- à tous : de consulter les travaux produits par les cohortes successives du cours.
+- étudiants et enseignant : de disposer d'un espace de travail pour faire avancer les travaux étudiants et les soumettre à l'enseignant pour correction ;
+- enseignant : de corriger les travaux, de communiquer ses corrections ou recommandations, puis de les approuver. La fusion d'un travail approuvé lance la production d'un document final en format PDF, prêt à être récupéré par les étudiants ;
+- tous : de consulter les travaux produits par les cohortes successives du cours.
 
 ---
 
