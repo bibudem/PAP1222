@@ -45,7 +45,7 @@
      insuffisance rénale » est un sujet ; « la sémaglutide diminue-t-elle
      le risque d'insuffisance rénale chronique chez les patients
      diabétiques de type 2 » est une question. -->
-
+Comment faire ce test
 
 ## 2. Pertinence clinique
 
