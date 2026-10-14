@@ -1,4 +1,4 @@
-# PAP1222 — Savoirs scientifiques en pharmacie : stratégies de recherche
+# PAP1222 — Savoirs scientifiques en pharmacie : stratégies de recherche (version 2)
 
 ## Description
 
