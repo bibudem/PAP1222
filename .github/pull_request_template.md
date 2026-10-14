@@ -4,15 +4,15 @@
 - **Travail :**
 - **Membres :** `@identifiant-1` / `@identifiant-2` / `@identifiant-3`
 
-<!-- Vos identifiants GitHub, pas vos noms : c'est ainsi que l'enseignant
-     peut vous mentionner dans la discussion. Vos noms, eux, sont déjà
-     inscrits une fois pour toutes par l'administrateur du dépôt, et ils
-     figurent sur la page titre du document final — c'est votre travail,
-     il porte votre signature. -->
+<!-- Les identifiants GitHub des membres, pas leurs noms : c'est ainsi que
+     l'enseignant peut les mentionner dans la discussion. Les noms, eux,
+     sont inscrits une fois pour toutes par l'administrateur du dépôt, et
+     ils figurent sur la page titre du document final — le travail porte
+     la signature de ses auteurs. -->
 
 ## Avant de soumettre
 
-*Cochez les cases **après** avoir créé la pull request : elles ne deviennent
+*Cocher les cases **après** avoir créé la pull request : elles ne deviennent
 cliquables que dans la vue rendue.*
 
 ### Question et plan de concepts
@@ -23,12 +23,12 @@ cliquables que dans la vue rendue.*
 - [ ] Chaque concept porte ses trois lignes : langage simple, vocabulaire contrôlé, vocabulaire libre
 - [ ] Les blocs CONCEPT inutilisés ont été supprimés, pas laissés vides
 - [ ] Chaque concept est justifié séparément : portée retenue, choix des descripteurs, usage d'Explode, choix des mots-clés et des champs
-- [ ] Les articles de consensus sont listés, et nous disons pour chacun si la stratégie finale le repêche
+- [ ] Les articles de consensus sont listés, et pour chacun, il est indiqué si la stratégie finale le repêche
 
 ### Stratégies exécutées
 
 - [ ] Chaque base porte son nom exact, son segment et sa couverture, avec la date d'exécution
-- [ ] L'historique est collé tel que la plateforme le donne — nous n'avons ni renuméroté ni réordonné les lignes
+- [ ] L'historique est collé tel que la plateforme le donne — les lignes n'ont été ni renumérotées ni réordonnées
 - [ ] Le décompte de résultats figure pour chaque ligne
 - [ ] Les filtres appliqués renvoient au numéro de ligne et sont justifiés — ou leur absence l'est
 - [ ] La légende des opérateurs employés est fournie, réduite à ce qui a servi
@@ -38,8 +38,8 @@ cliquables que dans la vue rendue.*
 ### Bilan et déclarations
 
 - [ ] Le journal de recherche consigne aussi les tentatives qui n'ont rien donné
-- [ ] Une limite connue de notre stratégie est nommée, avec ce qui la lèverait
-- [ ] **La déclaration d'usage de l'IA générative est remplie** — y compris si nous n'en avons pas utilisé
+- [ ] Une limite connue de la stratégie est nommée, avec ce qui la lèverait
+- [ ] **La déclaration d'usage de l'IA générative est remplie** — y compris en l'absence d'usage
 - [ ] L'autorisation de l'enseignant avait été obtenue avant tout usage d'IA générative
 - [ ] Les références retenues sont listées, et distinctes des articles de consensus
 
@@ -55,7 +55,7 @@ cliquables que dans la vue rendue.*
 ### Dépôt
 
 - [ ] Le titre de la remise commence par le numéro de l'équipe — pas « Update strategie_recherche.md »
-- [ ] Le fichier modifié se trouve dans le dossier de notre équipe
+- [ ] Le fichier modifié se trouve dans le dossier de l'équipe
 - [ ] Aucun fichier appartenant à une autre équipe n'a été touché
 - [ ] Le fichier `strategie_recherche.md` ne contient aucun renseignement personnel — ni nom, ni matricule, ni courriel, ni téléphone. L'identification de l'équipe se fait ci-dessus, dans ce formulaire
 - [ ] Tous les membres de l'équipe sont identifiés ci-dessus
@@ -63,10 +63,10 @@ cliquables que dans la vue rendue.*
 ## Ce qui a changé depuis la dernière version
 
 <!-- Deux ou trois phrases. Si le travail dérive d'une stratégie déjà
-     versée dans le repository, indiquez son permalien dans la section
+     versée dans le repository, indiquer son permalien dans la section
      Filiation. -->
 
 ## Questions ou difficultés
 
-<!-- Signalez ici ce sur quoi vous hésitez, ou ce dont vous aimeriez discuter.
+<!-- Les hésitations de l'équipe, ou les points qu'elle aimerait discuter.
      C'est le bon endroit pour poser une question à l'enseignant. -->

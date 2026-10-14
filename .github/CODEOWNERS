@@ -16,19 +16,20 @@
 #   en particulier après un transfert vers une organisation : les permissions
 #   par défaut de l'organisation écrasent celles du repository.
 #
-#   Comment vérifier : ouvrez ce fichier dans l'interface de GitHub — les
+#   Comment vérifier : ouvrir ce fichier dans l'interface de GitHub — les
 #   erreurs de syntaxe et les propriétaires invalides y sont surlignés. Puis
-#   ouvrez une pull request de test et confirmez que la révision est bien
+#   ouvrir une pull request de test et confirmer que la révision est bien
 #   demandée automatiquement.
 
 *   @hugobibliothecarius
 
-# ─── Après le transfert vers une organisation ────────────────────────────
+# ─── Équipe d'organisation (dépôt transféré vers bibudem) ────────────────
 #
-# Remplacez la ligne ci-dessus par l'équipe enseignante. Une équipe survit au
+# Il est préférable de remplacer la ligne ci-dessus par une équipe
+# d'organisation. Une équipe survit au
 # départ d'une personne, un compte individuel non.
 #
-#   *   @nom-organisation/equipe-enseignante
+#   *   @bibudem/nom-equipe
 #
 # L'équipe doit avoir un accès Write EXPLICITE au repository, même si tous ses
 # membres y ont déjà accès autrement — c'est une exigence de GitHub, pas un
@@ -41,4 +42,4 @@
 #   /equipes/equipe-03/   @auxiliaire-b
 #
 # Le motif « * » ci-dessus couvre aussi ce fichier, ce qui empêche qu'on le
-# modifie sans votre approbation. C'est voulu.
+# modifie sans l'approbation du propriétaire de code. C'est voulu.
