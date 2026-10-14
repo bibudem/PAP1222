@@ -4,7 +4,7 @@ Les douze critères du cours, chacun avec l'échelle du formulaire d'évaluation
 la section du travail qui s'y rapporte, et les questions de lecture qui aident
 à trancher.
 
-**Pour corriger une remise :** copiez tout ce qui suit la ligne de séparation
+**Pour corriger une remise :** copier tout ce qui suit la ligne de séparation
 dans une *review* de la pull request de l'équipe. Les cases deviennent
 cliquables une fois la review publiée. Les commentaires ligne par ligne, eux,
 se posent directement dans l'onglet **Files changed** — c'est là qu'ils sont le
@@ -81,7 +81,7 @@ repère pour la lecture. L'équipe n'a pas à y répondre une à une.
 
 ## 5. Commentaires sur la recherche par vocabulaire contrôlé
 
-<!-- Texte libre. Si le commentaire porte sur un descripteur précis, posez-le
+<!-- Texte libre. Un commentaire qui porte sur un descripteur précis se pose
      plutôt en annotation sur la ligne concernée, dans Files changed. -->
 
 ## 6. Recherche par vocabulaire libre

@@ -8,8 +8,8 @@ Ce document décrit chaque fichier du dépôt, les réglages GitHub dont la cha�
 dépend, et les opérations à faire en début et en fin de session. Il existe pour
 que le montage survive à la personne qui l'a mis en place.
 
-> Le dépôt est public. N'écrivez ici ni mot de passe, ni secret, ni
-> renseignement personnel.
+> Le dépôt est public. Ne jamais écrire ici de mot de passe, de secret ni
+> de renseignement personnel.
 
 ---
 
