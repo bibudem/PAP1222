@@ -350,7 +350,7 @@ jobs:
       # ─────────────────────────────────────────────────────────────────
       # Livraison : une release roulante, « documents-finaux »
       #
-      # C'est ici que l'enseignante récupère les PDF : encadré « Releases »
+      # C'est ici que l'enseignant récupère les PDF : encadré « Releases »
       # de la page d'accueil du repository, un clic, aucun détour par
       # l'onglet Actions. Et une release n'expire pas, contrairement aux
       # artifacts, plafonnés à 90 jours sur un repository public.
