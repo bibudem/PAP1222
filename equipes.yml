@@ -1,14 +1,15 @@
 # ─────────────────────────────────────────────────────────────────────────
 # LISTE DES ÉQUIPES — source unique de vérité
 #
-# Vous seul modifiez ce fichier. Les étudiants n'y touchent jamais.
+# Seul l'administrateur du dépôt modifie ce fichier. Les étudiants n'y
+# touchent jamais.
 # Rempli une fois en début de session, il alimente automatiquement :
 #
 #   • la page titre de chaque PDF (titre, cours, auteurs, date, licence)
 #   • le nom de chaque fichier produit
 #   • les avertissements de cohérence dans les pull requests
 #
-# Résultat : vos étudiants n'écrivent aucune métadonnée. Ils rédigent, c'est tout.
+# Résultat : les étudiants n'écrivent aucune métadonnée. Ils rédigent, c'est tout.
 # ─────────────────────────────────────────────────────────────────────────
 
 titre: "Stratégie de recherche"
@@ -31,7 +32,7 @@ licence_url: "https://creativecommons.org/licenses/by/4.0/deed.fr"
 #   equipe   → « Équipe 01 », « Équipe 02 »… pour TOUTES les équipes.
 #
 # Ce réglage vaut pour tout le fichier, jamais pour une seule équipe. Pour
-# qu'une seule équipe signe « Équipe NN », laissez sa liste « membres » vide
+# qu'une seule équipe signe « Équipe NN », laisser sa liste « membres » vide
 # (voir plus bas).
 #
 # Une signature « Équipe 01 » n'est pas professionnelle, et sous licence
@@ -59,7 +60,7 @@ auteurs: membres
 # ─── Les équipes ─────────────────────────────────────────────────────────
 #
 # Chaque équipe reçoit ses « membres ». Une équipe laissée vide signera
-# « Équipe NN » et le workflow vous le signalera par un avertissement.
+# « Équipe NN », et le workflow le signale par un avertissement.
 #
 #   equipe-01:
 #     membres:
@@ -73,14 +74,14 @@ auteurs: membres
 #       - …
 #
 # « titre » remplace le titre général sur la page titre de cette équipe.
-# Renseignez-le pour les travaux destinés à Papyrus, où chaque notice a besoin
+# À renseigner pour les travaux destinés à Papyrus, où chaque notice a besoin
 # d'un titre distinct. Laissé vide, le titre général s'applique.
 #
 # Deux conventions de nom fonctionnent, même mélangées :
 #   - Tremblay, Léa   → nom de famille = ce qui précède la virgule
 #   - Léa Tremblay    → nom de famille = le dernier mot
 #
-# L'ordre des noms est celui que vous écrivez : il détermine l'ordre des
+# L'ordre des noms est celui de la saisie : il détermine l'ordre des
 # auteurs sur la page titre et dans le nom du fichier PDF.
 
 equipes:
