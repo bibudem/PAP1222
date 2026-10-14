@@ -157,7 +157,7 @@ CONCEPT 2 ─ Simulation
      information, pas un échec — expliquer pourquoi. -->
 
 1. **Référence :**
-   - **Repêché par la stratégie finale :** oui / non — si non, pourquoi :
+   - **Repêché par la stratégie finale :** oui / non — si non, pourquoi : Oui, parce que c'est comme ça
 
 2. **Référence :**
    - **Repêché par la stratégie finale :** oui / non — si non, pourquoi :
