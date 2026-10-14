@@ -1,4 +1,4 @@
-# Corriger les remises
+# Corriger les travaux
 
 *Guide destiné à l'enseignant. Les consignes pour les équipes sont dans le
 [README](README.md).*
@@ -36,16 +36,16 @@ noms, une seule fois, avant la première remise.
 
 ## Le tableau de bord
 
-L'onglet **Pull requests** réunit les remises : chaque équipe y dépose la
+L'onglet **Pull requests** réunit les travaux étudiants : chaque équipe y dépose la
 sienne sous forme de *pull request*.
 
 Trois filtres à coller dans la barre de recherche, et à mettre en signet :
 
 | Filtre | Ce qu'il montre |
 |---|---|
-| `is:pr is:open review:required` | les remises pas encore regardées |
+| `is:pr is:open review:required` | les travaux pas encore regardées |
 | `is:pr is:open review:changes-requested` | les équipes qui doivent corriger |
-| `is:pr is:open review:approved` | les remises approuvées, prêtes pour le *merge* |
+| `is:pr is:open review:approved` | les travaux approuvées, prêtes pour le *merge* |
 
 Le premier filtre constitue la file de correction.
 
@@ -144,7 +144,7 @@ Sur la page d'accueil du *repository*, dans la colonne de droite, cliquer sur
 **Releases** → **Documents finaux**. On y trouve un PDF par équipe, déjà titré
 et nommé.
 
-La liste se met à jour toute seule à chaque fusion d'une remise. Il n'y a rien
+La liste se met à jour toute seule à chaque fusion d'un travail. Il n'y a rien
 à lancer, et rien à faire dans l'onglet **Actions**.
 
 > Ces fichiers n'expirent pas. Télécharger quand même le paquet à la fin de la
@@ -185,7 +185,7 @@ sa *branch* et il est visible dans l'onglet **Pull requests**.
 | *commit* (enregistrement) | une modification enregistrée, datée et signée. Rien ne s'efface d'un *commit* |
 | *branch* (branche) | une ligne de travail en parallèle. Chaque équipe a la sienne |
 | `main` | la *branch* officielle, celle qui fait foi. Personne n'y écrit directement |
-| *pull request* (demande de fusion) | la demande d'intégrer la *branch* d'une équipe dans `main`. C'est sa remise : le travail, la discussion et la correction s'y trouvent tous |
+| *pull request* (demande de fusion) | la demande d'intégrer la *branch* d'une équipe dans `main`. C'est la remise du travail:  la discussion et la correction s'y trouvent tous |
 | *review* (révision) | la lecture commentée de l'enseignant, ligne par ligne |
 | *merge* (fusion) | l'intégration du travail accepté dans `main`. Réservée à l'enseignant |
 | *check* (contrôle) | une vérification automatique lancée à chaque *commit*. Celui-ci cherche les renseignements personnels |
