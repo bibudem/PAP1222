@@ -153,7 +153,7 @@ La liste se met à jour toute seule à chaque fusion d'un travail. Il n'y a rien
 
 ---
 
-## Si quelque chose bloque
+## Dépannage
 
 **Un ✗ rouge apparaît sous une *pull request*.** Le *check* automatique a
 trouvé un renseignement personnel : un matricule, un courriel ou un numéro de
