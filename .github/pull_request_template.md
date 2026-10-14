@@ -4,7 +4,7 @@
 - **Travail :**
 - **Membres :** `@identifiant-1` / `@identifiant-2` / `@identifiant-3`
 
-<!-- Vos identifiants GitHub, pas vos noms : c'est ainsi que l'enseignante
+<!-- Vos identifiants GitHub, pas vos noms : c'est ainsi que l'enseignant
      peut vous mentionner dans la discussion. Vos noms, eux, sont déjà
      inscrits une fois pour toutes par l'administrateur du dépôt, et ils
      figurent sur la page titre du document final — c'est votre travail,
@@ -40,7 +40,7 @@ cliquables que dans la vue rendue.*
 - [ ] Le journal de recherche consigne aussi les tentatives qui n'ont rien donné
 - [ ] Une limite connue de notre stratégie est nommée, avec ce qui la lèverait
 - [ ] **La déclaration d'usage de l'IA générative est remplie** — y compris si nous n'en avons pas utilisé
-- [ ] L'autorisation de l'enseignante avait été obtenue avant tout usage d'IA générative
+- [ ] L'autorisation de l'enseignant avait été obtenue avant tout usage d'IA générative
 - [ ] Les références retenues sont listées, et distinctes des articles de consensus
 
 ### Saisie
@@ -69,4 +69,4 @@ cliquables que dans la vue rendue.*
 ## Questions ou difficultés
 
 <!-- Signalez ici ce sur quoi vous hésitez, ou ce dont vous aimeriez discuter.
-     C'est le bon endroit pour poser une question à l'enseignante. -->
+     C'est le bon endroit pour poser une question à l'enseignant. -->
