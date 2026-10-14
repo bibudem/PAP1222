@@ -9,17 +9,21 @@
 #
 # À lancer : onglet Actions → « Déployer le gabarit » → Run workflow.
 #
-# Le workflow n'écrit jamais dans main. Il ouvre une pull request que vous
-# relisez et fusionnez — le ruleset reste intact, et rien n'échappe à votre
-# révision. Comme la pull request est signée par github-actions[bot] et non
-# par vous, vous pouvez l'approuver normalement.
+# Le workflow n'écrit jamais dans main. Il ouvre une pull request que
+# l'administrateur relit et fusionne — le ruleset reste intact, et rien
+# n'échappe à la révision.
+#
+# ⚠ Cette pull request n'a pas de contrôle « verification » : GitHub ne
+#   déclenche aucun workflow pour un événement produit par le GITHUB_TOKEN.
+#   Le contrôle exigé reste en attente ; la fusion se fait en contournant la
+#   règle, par un compte autorisé à le faire.
 #
 #   ecraser: false  → n'installe le gabarit que dans les dossiers vides.
 #                     Sans danger en cours de session.
 #   ecraser: true   → remplace tous les fichiers. C'est ce qu'il faut pour
 #                     mettre à jour le gabarit, ou pour repartir à neuf au
 #                     début d'une session. ⚠ Écrase le travail des équipes :
-#                     regardez l'onglet Files changed avant de fusionner.
+#                     vérifier l'onglet Files changed avant de fusionner.
 
 name: Déployer le gabarit
 
@@ -131,7 +135,7 @@ jobs:
             'Source : `.github/gabarit/strategie_recherche.md`' \
             'Mode `ecraser` : `${{ inputs.ecraser }}`' \
             '' \
-            'Vérifiez l'"'"'onglet **Files changed** avant de fusionner.' \
+            'Vérifier l'"'"'onglet **Files changed** avant de fusionner.' \
             '' \
             'En mode `ecraser: true`, cette pull request remplace le contenu des fichiers d'"'"'équipe — donc leur travail.' \
             > corps-pr.md
